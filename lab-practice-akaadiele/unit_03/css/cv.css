@@ -1,0 +1,37 @@
+/* colours: 
+#D8DBE2 - Platinum
+#A9BCD0 - Powder blue
+    #476A6F - Payne's gray
+    #3F3047 - English Violet
+#091540 - Penn Blue
+#DDFC74 - mindaro
+# F17300 - safety orange
+*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap');
+/* font-family: "Playwrite DE Grund", cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Playwrite+DE+Grund:wght@100..400&family=Protest+Strike&display=swap');
+/* font-family: "Fjalla One", sans-serif; */
+
+body{
+    background-color: #D8DBE2;
+}
+
+h1, h2, h3{
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #476A6F;
+}
+
+p, li{
+    color: #091540;
+    font-family: "Playwrite DE Grund", cursive;
+    font-weight: 300;
+}
+
+.highlighted-colour{
+    color: #f17300;
+}
