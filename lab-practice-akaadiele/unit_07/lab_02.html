@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Changing the Document</title>
+</head>
+
+<body>
+    <!-- Changing the Document -->
+
+    <p>skittles</p>
+    <p>Fear</p>
+    <p>Anger</p>
+
+
+    <script>
+        var paragraphs = document.body.getElementsByTagName("p");
+        document.body.insertBefore(paragraphs[2], paragraphs[0]); // inserts paragraphs[2] before paragraphs[0]
+
+        // document.body.innerHTML = "<p> Well that was useful </p>";
+
+        // var newPara = document.createTextNode("A Jedi craves not these things");
+        // document.body.appendChild(newPara); // Adding a new text node to the HTML body
+
+        var newPara = document.createElement("p");
+        var text = document.createTextNode("A Jedi craves not these things"); newPara.appendChild(text);
+        document.body.appendChild(newPara); 
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.red{
+    background-color: #f2d7d5;
+}
+
+.blue{
+    background-color: #aed6f1;
+}
+
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
