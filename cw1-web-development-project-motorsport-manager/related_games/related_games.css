@@ -1,0 +1,22 @@
+/* Extra unique styling for 'related_games.html' */
+
+/* root */
+:root {
+    -–color0: #1E1B22;
+    -–color1: #092327;
+    -–color2: #971A0C;
+    -–color3: #D1D3C4;
+    --color4: #DFE0DC;
+}
+
+/* 'mainSection' class */
+.mainSection{
+    background-color: #971A0C;
+    color: white;
+    border-radius: 20px;
+}
+
+/* 'justifiedText' class on 'p' tags */
+p.justifiedText{
+    text-align: justify;
+}

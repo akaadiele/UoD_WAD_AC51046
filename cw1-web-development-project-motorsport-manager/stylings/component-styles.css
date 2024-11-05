@@ -1,0 +1,35 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Press+Start+2P&display=swap');
+
+/* Background Color*/
+#body,
+footer {
+    background-color: rgb(204, 204, 204);
+}
+
+/* Body Styles */
+#body {
+    font-family: "Afacad Flux", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    font-size: large;
+}
+
+/* Navbar Styles */
+nav {
+    background-color: #1E1B22;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+}
+
+
+/* Footer Styles */
+footer {
+    border-top: 2px rgb(142, 142, 142) solid;
+    margin-top: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+}

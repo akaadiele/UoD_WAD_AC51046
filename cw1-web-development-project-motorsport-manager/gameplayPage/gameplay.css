@@ -1,0 +1,82 @@
+/* banner image below navbar */
+.banner-image {
+    width: 100%;               
+    height: auto;              
+    object-fit: cover;
+}        
+
+/* sizing mobile image and making it float */
+.mobileimg{
+    width: 50%;
+    float: inline-end;
+}
+
+/* adding gradient and making it transparent for gif to be visible */
+.gradient-text{
+    font-size: 62px; 
+    font-weight: bold; 
+    background: url('https://64.media.tumblr.com/b5e710d574fc944f4217c19fa39ea466/tumblr_p0n1uxwyAc1uzwgsuo1_400.gifv') no-repeat; 
+    background-size: cover; 
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent; 
+    letter-spacing: 4px; 
+    display: inline-block;
+}
+
+/* centering the items */
+.centered-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* adding style to style class of the anchor tag */
+.astyle1 {
+    flex: 1;
+    text-decoration: none;
+    outline-color: transparent;
+    text-align: center;
+    line-height: 1;
+    color: black;
+  }
+  a.astyle1:link,
+  a.astyle1:visited,
+  a.astyle1:focus{
+    background: rgb(135, 135, 135);
+    color: black;
+  }
+  
+  a.astyle1:hover {
+    background: rgb(215, 215, 215);
+  }
+  
+  a.astyle1:active{
+    color: white;
+    background: rgb(0, 0, 0);
+  }
+
+  /* adding background color to card */
+  .cardstyle{
+    background-color: rgb(163, 163, 163) !important;
+    background-size: cover !important;
+  }
+
+  /* left banner class */
+  .left_banner {
+    display: inline-block;
+  }
+
+  /* right banner class */
+  .right_banner {
+    display: inline-block;
+  }
+
+
+/* hiding images below md */
+@media (max-width: 768px) {
+  .left_banner img,
+  .right_banner img {
+      display: none; 
+  }
+}
